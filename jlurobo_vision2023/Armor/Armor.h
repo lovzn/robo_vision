@@ -1,23 +1,20 @@
-/*
-*	@Author: Mountain
-*	@Date:	 2020.04.13
-*	@Brief:  This header file declares all the classes and params used to detect/recognize enemy armors
-*/
 
 #ifndef ARMOR
 #define ARMOR
 
+#include "opencv4/opencv2/opencv.hpp"
+// #include </usr/local/include/opencv4/opencv2/opencv.hpp>
 #include "../General/General.h"
 #include "../Serial/Serial.h"
-#include "Armor/predictor/kalman_filter.hpp"
+#include "./predictor/kalman_filter.hpp"
 #include "ImguiDbgkit.h"
 #include "Debug/Dbg3DScene.h"
 #include "time.h"
 #include <chrono>
 #include <cmath>
-#include "Armor/predictor/PredictPitch.h"
+#include "./predictor/PredictPitch.h"
 #include <yaml-cpp/yaml.h>
-#include <opencv2/core.hpp>
+
 enum class DetectorState
 {
     LIGHTS_NOT_FOUND = 0,

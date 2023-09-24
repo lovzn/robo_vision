@@ -173,12 +173,6 @@ void armorDetectingThread()
             bool bRun = true;
             char chKey = waitKey(1);
         }
-        else if(mode=Mode::LASER)
-        {
-            TxPrevYaw = received.yaw; TxPrevPitch = bullet.selectalg(received.pitch, distance * 0.001, received.bullet_speed, received.pitch*received.distance); TxPrevDist = rotAtt.distance * 0.001; TxPrevArmorNum = Armor.getTarget().armorNum;
-            Serial::Get()->SerialSend(TxPrevYaw, TxPrevPitch, TxPrevDist, false, false, TxPrevArmorNum, SerialDeviceName);
-        }
-
         ImguiDbgkit::get()->FinishFrame();
     }
     cerr << "armorDetectThread EXIT!" << endl;

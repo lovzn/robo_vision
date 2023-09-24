@@ -36,7 +36,7 @@ int main(int argc, char** argv)
         thread(imageUpdatingThreadLocal, videoFileName).detach();
     else
         thread(imageUpdatingThreadCamera).detach();
-	    thread(armorDetectingThread).detach();
+	      thread(armorDetectingThread).detach();
         thread(Serial::ReceiveThreadTask).detach();
         thread(Serial::TransmitThreadTask).detach();
 
