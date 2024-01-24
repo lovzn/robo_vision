@@ -1,0 +1,8 @@
+/home/tars-go/sb/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/Armor.idl
+/home/tars-go/sb/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/Armors.idl
+/home/tars-go/sb/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/Target.idl
+/home/tars-go/sb/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/DebugLight.idl
+/home/tars-go/sb/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/DebugLights.idl
+/home/tars-go/sb/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/DebugArmor.idl
+/home/tars-go/sb/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/DebugArmors.idl
+/home/tars-go/sb/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/TrackerInfo.idl
