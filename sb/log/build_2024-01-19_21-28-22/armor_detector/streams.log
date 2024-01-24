@@ -1,0 +1,74 @@
+[0.078s] Invoking command in '/home/tars-go/sb/build/armor_detector': AMENT_PREFIX_PATH=/home/tars-go/sb/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tars-go/sb/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/tars-go/sb/install/auto_aim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/tars-go/sb/src/rm_vision/rm_auto_aim-main/rm_auto_aim-main/armor_detector -DCMAKE_INSTALL_PREFIX=/home/tars-go/sb/install/armor_detector
+[0.088s] -- Found ament_cmake_auto: 1.3.6 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.259s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.261s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.265s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.273s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.283s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.324s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.324s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.406s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.810s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.810s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.007s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.016s] -- Found ament_cmake_gtest: 1.3.6 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.016s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.023s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.023s] -- Configured cppcheck include dirs: /home/tars-go/sb/src/rm_vision/rm_auto_aim-main/rm_auto_aim-main/armor_detector/include
+[1.024s] -- Configured cppcheck exclude dirs and/or files: 
+[1.024s] -- Added test 'lint_cmake' to check CMake code style
+[1.024s] -- Added test 'xmllint' to check XML markup files
+[1.025s] -- Configuring done
+[1.048s] -- Generating done
+[1.050s] -- Build files have been written to: /home/tars-go/sb/build/armor_detector
+[1.060s] Invoked command in '/home/tars-go/sb/build/armor_detector' returned '0': AMENT_PREFIX_PATH=/home/tars-go/sb/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tars-go/sb/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/tars-go/sb/install/auto_aim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/tars-go/sb/src/rm_vision/rm_auto_aim-main/rm_auto_aim-main/armor_detector -DCMAKE_INSTALL_PREFIX=/home/tars-go/sb/install/armor_detector
+[1.061s] Invoking command in '/home/tars-go/sb/build/armor_detector': AMENT_PREFIX_PATH=/home/tars-go/sb/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tars-go/sb/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/tars-go/sb/install/auto_aim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tars-go/sb/build/armor_detector -- -j16 -l16
+[1.090s] [35m[1mConsolidate compiler generated dependencies of target armor_detector[0m
+[1.092s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[1.092s] [35m[1mConsolidate compiler generated dependencies of target armor_detector_node[0m
+[1.093s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[1.106s] [ 13%] Built target gtest
+[1.106s] [ 26%] Built target gtest_main
+[1.107s] [ 60%] Built target armor_detector
+[1.108s] [ 73%] Built target armor_detector_node
+[1.114s] [35m[1mConsolidate compiler generated dependencies of target test_number_cls[0m
+[1.114s] [35m[1mConsolidate compiler generated dependencies of target test_node_startup[0m
+[1.125s] [ 86%] Built target test_number_cls
+[1.130s] [100%] Built target test_node_startup
+[1.139s] Invoked command in '/home/tars-go/sb/build/armor_detector' returned '0': AMENT_PREFIX_PATH=/home/tars-go/sb/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tars-go/sb/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/tars-go/sb/install/auto_aim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tars-go/sb/build/armor_detector -- -j16 -l16
+[1.204s] Invoking command in '/home/tars-go/sb/build/armor_detector': AMENT_PREFIX_PATH=/home/tars-go/sb/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tars-go/sb/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/tars-go/sb/install/auto_aim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tars-go/sb/build/armor_detector
+[1.209s] -- Install configuration: ""
+[1.209s] -- Up-to-date: /home/tars-go/sb/install/armor_detector/lib/armor_detector/armor_detector_node
+[1.209s] -- Up-to-date: /home/tars-go/sb/install/armor_detector/include
+[1.209s] -- Up-to-date: /home/tars-go/sb/install/armor_detector/include/armor_detector
+[1.209s] -- Up-to-date: /home/tars-go/sb/install/armor_detector/include/armor_detector/detector.hpp
+[1.209s] -- Up-to-date: /home/tars-go/sb/install/armor_detector/include/armor_detector/armor.hpp
+[1.209s] -- Up-to-date: /home/tars-go/sb/install/armor_detector/include/armor_detector/number_classifier.hpp
+[1.209s] -- Up-to-date: /home/tars-go/sb/install/armor_detector/include/armor_detector/pnp_solver.hpp
+[1.209s] -- Up-to-date: /home/tars-go/sb/install/armor_detector/include/armor_detector/detector_node.hpp
+[1.210s] -- Up-to-date: /home/tars-go/sb/install/armor_detector/share/armor_detector/environment/library_path.sh
+[1.210s] -- Installing: /home/tars-go/sb/install/armor_detector/share/armor_detector/environment/library_path.dsv
+[1.210s] -- Up-to-date: /home/tars-go/sb/install/armor_detector/lib/libarmor_detector.so
+[1.210s] -- Up-to-date: /home/tars-go/sb/install/armor_detector/share/armor_detector/model
+[1.210s] -- Up-to-date: /home/tars-go/sb/install/armor_detector/share/armor_detector/model/mlp.onnx
+[1.210s] -- Up-to-date: /home/tars-go/sb/install/armor_detector/share/armor_detector/model/label.txt
+[1.210s] -- Up-to-date: /home/tars-go/sb/install/armor_detector/share/ament_index/resource_index/package_run_dependencies/armor_detector
+[1.210s] -- Up-to-date: /home/tars-go/sb/install/armor_detector/share/ament_index/resource_index/parent_prefix_path/armor_detector
+[1.210s] -- Up-to-date: /home/tars-go/sb/install/armor_detector/share/armor_detector/environment/ament_prefix_path.sh
+[1.210s] -- Installing: /home/tars-go/sb/install/armor_detector/share/armor_detector/environment/ament_prefix_path.dsv
+[1.210s] -- Up-to-date: /home/tars-go/sb/install/armor_detector/share/armor_detector/environment/path.sh
+[1.210s] -- Installing: /home/tars-go/sb/install/armor_detector/share/armor_detector/environment/path.dsv
+[1.211s] -- Up-to-date: /home/tars-go/sb/install/armor_detector/share/armor_detector/local_setup.bash
+[1.211s] -- Up-to-date: /home/tars-go/sb/install/armor_detector/share/armor_detector/local_setup.sh
+[1.211s] -- Up-to-date: /home/tars-go/sb/install/armor_detector/share/armor_detector/local_setup.zsh
+[1.211s] -- Installing: /home/tars-go/sb/install/armor_detector/share/armor_detector/local_setup.dsv
+[1.212s] -- Installing: /home/tars-go/sb/install/armor_detector/share/armor_detector/package.dsv
+[1.212s] -- Up-to-date: /home/tars-go/sb/install/armor_detector/share/ament_index/resource_index/packages/armor_detector
+[1.212s] -- Up-to-date: /home/tars-go/sb/install/armor_detector/share/ament_index/resource_index/rclcpp_components/armor_detector
+[1.212s] -- Up-to-date: /home/tars-go/sb/install/armor_detector/share/armor_detector/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.212s] -- Up-to-date: /home/tars-go/sb/install/armor_detector/share/armor_detector/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.213s] -- Up-to-date: /home/tars-go/sb/install/armor_detector/share/armor_detector/cmake/ament_cmake_export_libraries-extras.cmake
+[1.213s] -- Up-to-date: /home/tars-go/sb/install/armor_detector/share/armor_detector/cmake/armor_detectorConfig.cmake
+[1.213s] -- Up-to-date: /home/tars-go/sb/install/armor_detector/share/armor_detector/cmake/armor_detectorConfig-version.cmake
+[1.213s] -- Up-to-date: /home/tars-go/sb/install/armor_detector/share/armor_detector/package.xml
+[1.214s] Invoked command in '/home/tars-go/sb/build/armor_detector' returned '0': AMENT_PREFIX_PATH=/home/tars-go/sb/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tars-go/sb/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/tars-go/sb/install/auto_aim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tars-go/sb/build/armor_detector

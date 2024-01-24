@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/tars-go/hero_bullet/install/rm_serial_driver/include/**",
+        "/home/tars-go/hero_bullet/install/armor_tracker/include/**",
+        "/home/tars-go/hero_bullet/install/armor_detector/include/**",
+        "/home/tars-go/hero_bullet/install/auto_aim_interfaces/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/tars-go/hero_bullet/src/rm_vision/rm_auto_aim-main/rm_auto_aim-main/armor_detector/include/**",
+        "/home/tars-go/hero_bullet/src/rm_vision/rm_auto_aim-main/rm_auto_aim-main/armor_tracker/include/**",
+        "/home/tars-go/hero_bullet/src/rm_vision/rm_serial_driver-main/rm_serial_driver-main/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

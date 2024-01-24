@@ -1,0 +1,63 @@
+[0.112s] Invoking command in '/home/tars-go/sb/build/galaxy_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tars-go/sb/src/rm_vision_ros2_galaxy_camera-master -DCMAKE_INSTALL_PREFIX=/home/tars-go/sb/install/galaxy_camera
+[0.123s] -- Found ament_cmake_auto: 1.3.6 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.330s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.332s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.337s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.345s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.358s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.400s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.401s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.488s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.809s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.816s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.816s] -- Configured cppcheck include dirs: /home/tars-go/sb/src/rm_vision_ros2_galaxy_camera-master/GalaxySDK/include
+[0.816s] -- Configured cppcheck exclude dirs and/or files: 
+[0.816s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.816s] -- Added test 'lint_cmake' to check CMake code style
+[0.817s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.818s] -- Added test 'xmllint' to check XML markup files
+[0.819s] -- Configuring done
+[0.827s] -- Generating done
+[0.828s] -- Build files have been written to: /home/tars-go/sb/build/galaxy_camera
+[0.835s] Invoked command in '/home/tars-go/sb/build/galaxy_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tars-go/sb/src/rm_vision_ros2_galaxy_camera-master -DCMAKE_INSTALL_PREFIX=/home/tars-go/sb/install/galaxy_camera
+[0.836s] Invoking command in '/home/tars-go/sb/build/galaxy_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tars-go/sb/build/galaxy_camera -- -j16 -l16
+[0.874s] [35m[1mConsolidate compiler generated dependencies of target galaxy_camera[0m
+[0.879s] [35m[1mConsolidate compiler generated dependencies of target galaxy_camera_node[0m
+[0.889s] [ 50%] Built target galaxy_camera
+[0.899s] [100%] Built target galaxy_camera_node
+[0.907s] Invoked command in '/home/tars-go/sb/build/galaxy_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tars-go/sb/build/galaxy_camera -- -j16 -l16
+[0.970s] Invoking command in '/home/tars-go/sb/build/galaxy_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tars-go/sb/build/galaxy_camera
+[0.979s] -- Install configuration: ""
+[0.979s] -- Up-to-date: /home/tars-go/sb/install/galaxy_camera/lib
+[0.979s] -- Up-to-date: /home/tars-go/sb/install/galaxy_camera/lib/GxGVTL.cti
+[0.979s] -- Up-to-date: /home/tars-go/sb/install/galaxy_camera/lib/bc4b08373788f18282ff1e747a98dd6c21a8b629.cache
+[0.979s] -- Up-to-date: /home/tars-go/sb/install/galaxy_camera/lib/GxU3VTL.cti
+[0.979s] -- Up-to-date: /home/tars-go/sb/install/galaxy_camera/lib/libgxiapi.so
+[0.979s] -- Up-to-date: /home/tars-go/sb/install/galaxy_camera/lib/galaxy_camera/galaxy_camera_node
+[0.980s] -- Up-to-date: /home/tars-go/sb/install/galaxy_camera/share/galaxy_camera/environment/library_path.sh
+[0.980s] -- Installing: /home/tars-go/sb/install/galaxy_camera/share/galaxy_camera/environment/library_path.dsv
+[0.980s] -- Up-to-date: /home/tars-go/sb/install/galaxy_camera/lib/libgalaxy_camera.so
+[0.980s] -- Up-to-date: /home/tars-go/sb/install/galaxy_camera/share/galaxy_camera/config
+[0.980s] -- Up-to-date: /home/tars-go/sb/install/galaxy_camera/share/galaxy_camera/config/camera_params.yaml
+[0.980s] -- Up-to-date: /home/tars-go/sb/install/galaxy_camera/share/galaxy_camera/config/camera_info.yaml
+[0.981s] -- Up-to-date: /home/tars-go/sb/install/galaxy_camera/share/galaxy_camera/launch
+[0.981s] -- Up-to-date: /home/tars-go/sb/install/galaxy_camera/share/galaxy_camera/launch/galaxy_camera.launch.py
+[0.981s] -- Up-to-date: /home/tars-go/sb/install/galaxy_camera/share/ament_index/resource_index/package_run_dependencies/galaxy_camera
+[0.981s] -- Up-to-date: /home/tars-go/sb/install/galaxy_camera/share/ament_index/resource_index/parent_prefix_path/galaxy_camera
+[0.981s] -- Up-to-date: /home/tars-go/sb/install/galaxy_camera/share/galaxy_camera/environment/ament_prefix_path.sh
+[0.981s] -- Installing: /home/tars-go/sb/install/galaxy_camera/share/galaxy_camera/environment/ament_prefix_path.dsv
+[0.981s] -- Up-to-date: /home/tars-go/sb/install/galaxy_camera/share/galaxy_camera/environment/path.sh
+[0.981s] -- Installing: /home/tars-go/sb/install/galaxy_camera/share/galaxy_camera/environment/path.dsv
+[0.982s] -- Up-to-date: /home/tars-go/sb/install/galaxy_camera/share/galaxy_camera/local_setup.bash
+[0.982s] -- Up-to-date: /home/tars-go/sb/install/galaxy_camera/share/galaxy_camera/local_setup.sh
+[0.983s] -- Up-to-date: /home/tars-go/sb/install/galaxy_camera/share/galaxy_camera/local_setup.zsh
+[0.983s] -- Installing: /home/tars-go/sb/install/galaxy_camera/share/galaxy_camera/local_setup.dsv
+[0.983s] -- Installing: /home/tars-go/sb/install/galaxy_camera/share/galaxy_camera/package.dsv
+[0.983s] -- Up-to-date: /home/tars-go/sb/install/galaxy_camera/share/ament_index/resource_index/packages/galaxy_camera
+[0.983s] -- Up-to-date: /home/tars-go/sb/install/galaxy_camera/share/ament_index/resource_index/rclcpp_components/galaxy_camera
+[0.983s] -- Up-to-date: /home/tars-go/sb/install/galaxy_camera/share/galaxy_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.983s] -- Up-to-date: /home/tars-go/sb/install/galaxy_camera/share/galaxy_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[0.983s] -- Up-to-date: /home/tars-go/sb/install/galaxy_camera/share/galaxy_camera/cmake/galaxy_cameraConfig.cmake
+[0.983s] -- Up-to-date: /home/tars-go/sb/install/galaxy_camera/share/galaxy_camera/cmake/galaxy_cameraConfig-version.cmake
+[0.984s] -- Up-to-date: /home/tars-go/sb/install/galaxy_camera/share/galaxy_camera/package.xml
+[0.984s] Invoked command in '/home/tars-go/sb/build/galaxy_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tars-go/sb/build/galaxy_camera

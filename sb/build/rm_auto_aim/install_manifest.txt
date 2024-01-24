@@ -1,0 +1,15 @@
+/home/tars-go/sb/install/rm_auto_aim/share/ament_index/resource_index/package_run_dependencies/rm_auto_aim
+/home/tars-go/sb/install/rm_auto_aim/share/ament_index/resource_index/parent_prefix_path/rm_auto_aim
+/home/tars-go/sb/install/rm_auto_aim/share/rm_auto_aim/environment/ament_prefix_path.sh
+/home/tars-go/sb/install/rm_auto_aim/share/rm_auto_aim/environment/ament_prefix_path.dsv
+/home/tars-go/sb/install/rm_auto_aim/share/rm_auto_aim/environment/path.sh
+/home/tars-go/sb/install/rm_auto_aim/share/rm_auto_aim/environment/path.dsv
+/home/tars-go/sb/install/rm_auto_aim/share/rm_auto_aim/local_setup.bash
+/home/tars-go/sb/install/rm_auto_aim/share/rm_auto_aim/local_setup.sh
+/home/tars-go/sb/install/rm_auto_aim/share/rm_auto_aim/local_setup.zsh
+/home/tars-go/sb/install/rm_auto_aim/share/rm_auto_aim/local_setup.dsv
+/home/tars-go/sb/install/rm_auto_aim/share/rm_auto_aim/package.dsv
+/home/tars-go/sb/install/rm_auto_aim/share/ament_index/resource_index/packages/rm_auto_aim
+/home/tars-go/sb/install/rm_auto_aim/share/rm_auto_aim/cmake/rm_auto_aimConfig.cmake
+/home/tars-go/sb/install/rm_auto_aim/share/rm_auto_aim/cmake/rm_auto_aimConfig-version.cmake
+/home/tars-go/sb/install/rm_auto_aim/share/rm_auto_aim/package.xml

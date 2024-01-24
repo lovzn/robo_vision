@@ -1,0 +1,13 @@
+{
+  "package_name": "auto_aim_interfaces",
+  "non_idl_tuples": [
+    "/home/tars-go/sb/src/rm_vision/rm_auto_aim-main/rm_auto_aim-main/auto_aim_interfaces:msg/Armor.msg",
+    "/home/tars-go/sb/src/rm_vision/rm_auto_aim-main/rm_auto_aim-main/auto_aim_interfaces:msg/Armors.msg",
+    "/home/tars-go/sb/src/rm_vision/rm_auto_aim-main/rm_auto_aim-main/auto_aim_interfaces:msg/Target.msg",
+    "/home/tars-go/sb/src/rm_vision/rm_auto_aim-main/rm_auto_aim-main/auto_aim_interfaces:msg/DebugLight.msg",
+    "/home/tars-go/sb/src/rm_vision/rm_auto_aim-main/rm_auto_aim-main/auto_aim_interfaces:msg/DebugLights.msg",
+    "/home/tars-go/sb/src/rm_vision/rm_auto_aim-main/rm_auto_aim-main/auto_aim_interfaces:msg/DebugArmor.msg",
+    "/home/tars-go/sb/src/rm_vision/rm_auto_aim-main/rm_auto_aim-main/auto_aim_interfaces:msg/DebugArmors.msg",
+    "/home/tars-go/sb/src/rm_vision/rm_auto_aim-main/rm_auto_aim-main/auto_aim_interfaces:msg/TrackerInfo.msg"
+  ]
+}

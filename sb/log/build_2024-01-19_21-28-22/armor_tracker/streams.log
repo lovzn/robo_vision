@@ -1,0 +1,60 @@
+[0.056s] Invoking command in '/home/tars-go/sb/build/armor_tracker': AMENT_PREFIX_PATH=/home/tars-go/sb/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tars-go/sb/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/tars-go/sb/install/auto_aim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/tars-go/sb/src/rm_vision/rm_auto_aim-main/rm_auto_aim-main/armor_tracker -DCMAKE_INSTALL_PREFIX=/home/tars-go/sb/install/armor_tracker
+[0.064s] -- Found ament_cmake_auto: 1.3.6 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.255s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.258s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.263s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.270s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.281s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.320s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.321s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.408s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.763s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.764s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.002s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.014s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.014s] -- Configured cppcheck include dirs: /home/tars-go/sb/src/rm_vision/rm_auto_aim-main/rm_auto_aim-main/armor_tracker/include
+[1.015s] -- Configured cppcheck exclude dirs and/or files: 
+[1.015s] -- Added test 'lint_cmake' to check CMake code style
+[1.015s] -- Added test 'xmllint' to check XML markup files
+[1.016s] -- Configuring done
+[1.026s] -- Generating done
+[1.027s] -- Build files have been written to: /home/tars-go/sb/build/armor_tracker
+[1.033s] Invoked command in '/home/tars-go/sb/build/armor_tracker' returned '0': AMENT_PREFIX_PATH=/home/tars-go/sb/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tars-go/sb/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/tars-go/sb/install/auto_aim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/tars-go/sb/src/rm_vision/rm_auto_aim-main/rm_auto_aim-main/armor_tracker -DCMAKE_INSTALL_PREFIX=/home/tars-go/sb/install/armor_tracker
+[1.035s] Invoking command in '/home/tars-go/sb/build/armor_tracker': AMENT_PREFIX_PATH=/home/tars-go/sb/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tars-go/sb/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/tars-go/sb/install/auto_aim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tars-go/sb/build/armor_tracker -- -j16 -l16
+[1.065s] [35m[1mConsolidate compiler generated dependencies of target armor_tracker_node[0m
+[1.067s] [35m[1mConsolidate compiler generated dependencies of target armor_tracker[0m
+[1.076s] [ 28%] Built target armor_tracker_node
+[1.088s] [100%] Built target armor_tracker
+[1.097s] Invoked command in '/home/tars-go/sb/build/armor_tracker' returned '0': AMENT_PREFIX_PATH=/home/tars-go/sb/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tars-go/sb/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/tars-go/sb/install/auto_aim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tars-go/sb/build/armor_tracker -- -j16 -l16
+[1.121s] Invoking command in '/home/tars-go/sb/build/armor_tracker': AMENT_PREFIX_PATH=/home/tars-go/sb/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tars-go/sb/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/tars-go/sb/install/auto_aim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tars-go/sb/build/armor_tracker
+[1.126s] -- Install configuration: ""
+[1.126s] -- Up-to-date: /home/tars-go/sb/install/armor_tracker/lib/armor_tracker/armor_tracker_node
+[1.127s] -- Up-to-date: /home/tars-go/sb/install/armor_tracker/include
+[1.127s] -- Up-to-date: /home/tars-go/sb/install/armor_tracker/include/armor_tracker
+[1.127s] -- Up-to-date: /home/tars-go/sb/install/armor_tracker/include/armor_tracker/extended_kalman_filter.hpp
+[1.127s] -- Up-to-date: /home/tars-go/sb/install/armor_tracker/include/armor_tracker/tracker.hpp
+[1.127s] -- Up-to-date: /home/tars-go/sb/install/armor_tracker/include/armor_tracker/trajectory.h
+[1.127s] -- Up-to-date: /home/tars-go/sb/install/armor_tracker/include/armor_tracker/tracker_node.hpp
+[1.127s] -- Up-to-date: /home/tars-go/sb/install/armor_tracker/share/armor_tracker/environment/library_path.sh
+[1.128s] -- Installing: /home/tars-go/sb/install/armor_tracker/share/armor_tracker/environment/library_path.dsv
+[1.128s] -- Up-to-date: /home/tars-go/sb/install/armor_tracker/lib/libarmor_tracker.so
+[1.128s] -- Up-to-date: /home/tars-go/sb/install/armor_tracker/share/ament_index/resource_index/package_run_dependencies/armor_tracker
+[1.129s] -- Up-to-date: /home/tars-go/sb/install/armor_tracker/share/ament_index/resource_index/parent_prefix_path/armor_tracker
+[1.129s] -- Up-to-date: /home/tars-go/sb/install/armor_tracker/share/armor_tracker/environment/ament_prefix_path.sh
+[1.129s] -- Installing: /home/tars-go/sb/install/armor_tracker/share/armor_tracker/environment/ament_prefix_path.dsv
+[1.129s] -- Up-to-date: /home/tars-go/sb/install/armor_tracker/share/armor_tracker/environment/path.sh
+[1.129s] -- Installing: /home/tars-go/sb/install/armor_tracker/share/armor_tracker/environment/path.dsv
+[1.129s] -- Up-to-date: /home/tars-go/sb/install/armor_tracker/share/armor_tracker/local_setup.bash
+[1.129s] -- Up-to-date: /home/tars-go/sb/install/armor_tracker/share/armor_tracker/local_setup.sh
+[1.129s] -- Up-to-date: /home/tars-go/sb/install/armor_tracker/share/armor_tracker/local_setup.zsh
+[1.129s] -- Installing: /home/tars-go/sb/install/armor_tracker/share/armor_tracker/local_setup.dsv
+[1.129s] -- Installing: /home/tars-go/sb/install/armor_tracker/share/armor_tracker/package.dsv
+[1.129s] -- Up-to-date: /home/tars-go/sb/install/armor_tracker/share/ament_index/resource_index/packages/armor_tracker
+[1.129s] -- Up-to-date: /home/tars-go/sb/install/armor_tracker/share/ament_index/resource_index/rclcpp_components/armor_tracker
+[1.129s] -- Up-to-date: /home/tars-go/sb/install/armor_tracker/share/armor_tracker/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.129s] -- Up-to-date: /home/tars-go/sb/install/armor_tracker/share/armor_tracker/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.129s] -- Up-to-date: /home/tars-go/sb/install/armor_tracker/share/armor_tracker/cmake/ament_cmake_export_libraries-extras.cmake
+[1.129s] -- Up-to-date: /home/tars-go/sb/install/armor_tracker/share/armor_tracker/cmake/armor_trackerConfig.cmake
+[1.129s] -- Up-to-date: /home/tars-go/sb/install/armor_tracker/share/armor_tracker/cmake/armor_trackerConfig-version.cmake
+[1.129s] -- Up-to-date: /home/tars-go/sb/install/armor_tracker/share/armor_tracker/package.xml
+[1.130s] Invoked command in '/home/tars-go/sb/build/armor_tracker' returned '0': AMENT_PREFIX_PATH=/home/tars-go/sb/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tars-go/sb/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/tars-go/sb/install/auto_aim_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32 PYTHONPATH=/home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/tars-go/sb/build/armor_tracker

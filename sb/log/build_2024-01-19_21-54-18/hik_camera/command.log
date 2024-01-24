@@ -1,0 +1,6 @@
+Invoking command in '/home/tars-go/sb/build/hik_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/tars-go/sb/src/rm_vision/ros2-hik-camera-main/ros2-hik-camera-main -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/tars-go/sb/install/hik_camera
+Invoked command in '/home/tars-go/sb/build/hik_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/tars-go/sb/src/rm_vision/ros2-hik-camera-main/ros2-hik-camera-main -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/tars-go/sb/install/hik_camera
+Invoking command in '/home/tars-go/sb/build/hik_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tars-go/sb/build/hik_camera -- -j16 -l16
+Invoked command in '/home/tars-go/sb/build/hik_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tars-go/sb/build/hik_camera -- -j16 -l16
+Invoking command in '/home/tars-go/sb/build/hik_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tars-go/sb/build/hik_camera
+Invoked command in '/home/tars-go/sb/build/hik_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tars-go/sb/build/hik_camera

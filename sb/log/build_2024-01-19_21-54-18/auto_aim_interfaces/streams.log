@@ -1,0 +1,394 @@
+[0.165s] Invoking command in '/home/tars-go/sb/build/auto_aim_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/tars-go/sb/src/rm_vision/rm_auto_aim-main/rm_auto_aim-main/auto_aim_interfaces -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/tars-go/sb/install/auto_aim_interfaces
+[0.176s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.287s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.288s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.291s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.316s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.338s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.711s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.934s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.217s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.234s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.253s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.253s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.253s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.289s] -- Configuring done
+[1.340s] -- Generating done
+[1.343s] -- Build files have been written to: /home/tars-go/sb/build/auto_aim_interfaces
+[1.351s] Invoked command in '/home/tars-go/sb/build/auto_aim_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/tars-go/sb/src/rm_vision/rm_auto_aim-main/rm_auto_aim-main/auto_aim_interfaces -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_INSTALL_PREFIX=/home/tars-go/sb/install/auto_aim_interfaces
+[1.353s] Invoking command in '/home/tars-go/sb/build/auto_aim_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tars-go/sb/build/auto_aim_interfaces -- -j16 -l16
+[1.393s] [35m[1mConsolidate compiler generated dependencies of target auto_aim_interfaces__rosidl_generator_c[0m
+[1.398s] [  1%] Built target auto_aim_interfaces__cpp
+[1.411s] [  2%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/armor__functions.c.o[0m
+[1.412s] [  3%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/debug_lights__functions.c.o[0m
+[1.413s] [35m[1mConsolidate compiler generated dependencies of target auto_aim_interfaces__rosidl_typesupport_introspection_cpp[0m
+[1.414s] [35m[1mConsolidate compiler generated dependencies of target auto_aim_interfaces__rosidl_typesupport_cpp[0m
+[1.416s] [35m[1mConsolidate compiler generated dependencies of target auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[1.416s] [  4%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/tracker_info__functions.c.o[0m
+[1.418s] [  5%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/armors__functions.c.o[0m
+[1.418s] [  6%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/debug_light__functions.c.o[0m
+[1.421s] [  8%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/target__functions.c.o[0m
+[1.422s] [  9%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/debug_armor__functions.c.o[0m
+[1.423s] [ 10%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_c.dir/rosidl_generator_c/auto_aim_interfaces/msg/detail/debug_armors__functions.c.o[0m
+[1.435s] [ 10%] Built target ament_cmake_python_copy_auto_aim_interfaces
+[1.445s] [ 11%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/armors__type_support.cpp.o[0m
+[1.454s] [ 12%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/armors__type_support.cpp.o[0m
+[1.456s] [ 13%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/target__type_support.cpp.o[0m
+[1.463s] [ 14%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/armor__type_support.cpp.o[0m
+[1.464s] [ 16%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/armor__type_support.cpp.o[0m
+[1.466s] [ 17%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/armor__type_support.cpp.o[0m
+[1.482s] [ 18%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/debug_light__type_support.cpp.o[0m
+[1.612s] [ 19%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/target__type_support.cpp.o[0m
+[1.625s] [ 20%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/debug_lights__type_support.cpp.o[0m
+[1.629s] [ 21%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/armors__type_support.cpp.o[0m
+[1.639s] [ 22%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/target__type_support.cpp.o[0m
+[1.682s] [ 24%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/debug_light__type_support.cpp.o[0m
+[1.730s] [ 25%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/debug_armor__type_support.cpp.o[0m
+[1.756s] [ 26%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/debug_armors__type_support.cpp.o[0m
+[1.771s] running egg_info
+[1.773s] writing auto_aim_interfaces.egg-info/PKG-INFO
+[1.773s] writing dependency_links to auto_aim_interfaces.egg-info/dependency_links.txt
+[1.773s] writing top-level names to auto_aim_interfaces.egg-info/top_level.txt
+[1.775s] [ 27%] [32m[1mLinking C shared library libauto_aim_interfaces__rosidl_generator_c.so[0m
+[1.776s] reading manifest file 'auto_aim_interfaces.egg-info/SOURCES.txt'
+[1.777s] writing manifest file 'auto_aim_interfaces.egg-info/SOURCES.txt'
+[1.822s] [ 27%] Built target ament_cmake_python_build_auto_aim_interfaces_egg
+[1.848s] [ 28%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/debug_lights__type_support.cpp.o[0m
+[1.860s] [ 29%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/auto_aim_interfaces/msg/tracker_info__type_support.cpp.o[0m
+[1.867s] [ 31%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/debug_armor__type_support.cpp.o[0m
+[1.887s] [ 32%] Built target auto_aim_interfaces__rosidl_generator_c
+[1.954s] [35m[1mConsolidate compiler generated dependencies of target auto_aim_interfaces__rosidl_typesupport_fastrtps_c[0m
+[2.023s] [ 33%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/armor__type_support_c.cpp.o[0m
+[2.206s] [ 34%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/armors__type_support_c.cpp.o[0m
+[2.232s] [ 35%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/debug_light__type_support.cpp.o[0m
+[2.244s] [ 36%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/debug_lights__type_support.cpp.o[0m
+[2.408s] [ 37%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/debug_armor__type_support.cpp.o[0m
+[2.426s] [ 39%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/debug_armors__type_support.cpp.o[0m
+[2.432s] [ 40%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/debug_armors__type_support.cpp.o[0m
+[2.458s] [ 41%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/auto_aim_interfaces/msg/detail/tracker_info__type_support.cpp.o[0m
+[2.476s] [35m[1mConsolidate compiler generated dependencies of target auto_aim_interfaces__rosidl_typesupport_introspection_c[0m
+[2.530s] [ 42%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/armor__type_support.c.o[0m
+[2.598s] [ 43%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/armors__type_support.c.o[0m
+[2.625s] [ 44%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/auto_aim_interfaces/msg/detail/dds_fastrtps/tracker_info__type_support.cpp.o[0m
+[2.633s] [ 45%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/target__type_support.c.o[0m
+[2.667s] [ 47%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/debug_light__type_support.c.o[0m
+[2.747s] [ 48%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/debug_lights__type_support.c.o[0m
+[2.781s] [ 49%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/debug_armor__type_support.c.o[0m
+[2.785s] [ 50%] [32m[1mLinking CXX shared library libauto_aim_interfaces__rosidl_typesupport_cpp.so[0m
+[2.796s] [35m[1mConsolidate compiler generated dependencies of target auto_aim_interfaces__rosidl_typesupport_c[0m
+[2.844s] [ 51%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/armor__type_support.cpp.o[0m
+[2.900s] [ 52%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/debug_armors__type_support.c.o[0m
+[2.913s] [ 54%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/target__type_support_c.cpp.o[0m
+[2.937s] [ 55%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/target__type_support.cpp.o[0m
+[2.939s] [ 56%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/armors__type_support.cpp.o[0m
+[2.950s] [ 57%] Built target auto_aim_interfaces__rosidl_typesupport_cpp
+[2.971s] [ 58%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/debug_light__type_support_c.cpp.o[0m
+[2.983s] [ 59%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/auto_aim_interfaces/msg/detail/tracker_info__type_support.c.o[0m
+[3.000s] [ 60%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/debug_light__type_support.cpp.o[0m
+[3.014s] [ 62%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/debug_lights__type_support_c.cpp.o[0m
+[3.028s] [ 63%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/debug_armor__type_support_c.cpp.o[0m
+[3.047s] [ 64%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/debug_lights__type_support.cpp.o[0m
+[3.066s] [ 65%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/debug_armor__type_support.cpp.o[0m
+[3.082s] [ 66%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/debug_armors__type_support_c.cpp.o[0m
+[3.105s] [ 67%] [32m[1mLinking C shared library libauto_aim_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.136s] [ 68%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/debug_armors__type_support.cpp.o[0m
+[3.162s] [ 70%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/auto_aim_interfaces/msg/tracker_info__type_support.cpp.o[0m
+[3.190s] [ 71%] [32mBuilding CXX object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/auto_aim_interfaces/msg/detail/tracker_info__type_support_c.cpp.o[0m
+[3.216s] [ 72%] Built target auto_aim_interfaces__rosidl_typesupport_introspection_c
+[3.291s] [ 73%] [32m[1mLinking CXX shared library libauto_aim_interfaces__rosidl_typesupport_c.so[0m
+[3.342s] [ 74%] [32m[1mLinking CXX shared library libauto_aim_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.395s] [ 75%] Built target auto_aim_interfaces__rosidl_typesupport_c
+[3.459s] [ 77%] Built target auto_aim_interfaces__rosidl_typesupport_introspection_cpp
+[3.594s] [ 78%] [32m[1mLinking CXX shared library libauto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.683s] [ 79%] Built target auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.730s] [ 80%] [32m[1mLinking CXX shared library libauto_aim_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.808s] [ 81%] Built target auto_aim_interfaces__rosidl_typesupport_fastrtps_c
+[3.825s] [ 81%] Built target auto_aim_interfaces
+[3.844s] [ 82%] Built target auto_aim_interfaces__py
+[3.854s] [35m[1mConsolidate compiler generated dependencies of target auto_aim_interfaces__rosidl_generator_py[0m
+[3.872s] [ 83%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_armor_s.c.o[0m
+[3.873s] [ 86%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_debug_light_s.c.o[0m
+[3.874s] [ 86%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_armors_s.c.o[0m
+[3.875s] [ 89%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_debug_lights_s.c.o[0m
+[3.875s] [ 89%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_debug_armor_s.c.o[0m
+[3.875s] [ 91%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_target_s.c.o[0m
+[3.875s] [ 91%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_tracker_info_s.c.o[0m
+[3.876s] [ 90%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_generator_py.dir/rosidl_generator_py/auto_aim_interfaces/msg/_debug_armors_s.c.o[0m
+[4.085s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/auto_aim_interfaces/libauto_aim_interfaces__rosidl_generator_py.so[0m
+[4.123s] [ 93%] Built target auto_aim_interfaces__rosidl_generator_py
+[4.150s] [35m[1mConsolidate compiler generated dependencies of target auto_aim_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[4.150s] [35m[1mConsolidate compiler generated dependencies of target auto_aim_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[4.150s] [35m[1mConsolidate compiler generated dependencies of target auto_aim_interfaces__rosidl_typesupport_c__pyext[0m
+[4.150s] [ 94%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.151s] [ 95%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.152s] [ 96%] [32mBuilding C object CMakeFiles/auto_aim_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.320s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.353s] [ 97%] Built target auto_aim_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.410s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.414s] [100%] [32m[1mLinking C shared library rosidl_generator_py/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.447s] [100%] Built target auto_aim_interfaces__rosidl_typesupport_c__pyext
+[4.456s] [100%] Built target auto_aim_interfaces__rosidl_typesupport_introspection_c__pyext
+[4.468s] Invoked command in '/home/tars-go/sb/build/auto_aim_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tars-go/sb/build/auto_aim_interfaces -- -j16 -l16
+[4.676s] Invoking command in '/home/tars-go/sb/build/auto_aim_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tars-go/sb/build/auto_aim_interfaces
+[4.686s] -- Install configuration: "RelWithDebInfo"
+[4.686s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/share/ament_index/resource_index/rosidl_interfaces/auto_aim_interfaces
+[4.686s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces
+[4.687s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg
+[4.687s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.687s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/tracker_info.h
+[4.687s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/target.h
+[4.687s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/armor.h
+[4.687s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail
+[4.687s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__type_support.h
+[4.687s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__functions.h
+[4.688s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__functions.c
+[4.688s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__struct.h
+[4.688s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__functions.h
+[4.688s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__type_support.h
+[4.688s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__type_support.h
+[4.688s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__struct.h
+[4.688s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__type_support.h
+[4.688s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__struct.h
+[4.688s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__functions.c
+[4.688s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__type_support.h
+[4.689s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__functions.h
+[4.689s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__functions.h
+[4.689s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__struct.h
+[4.689s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__type_support.h
+[4.689s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__functions.h
+[4.689s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__functions.c
+[4.689s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__functions.h
+[4.689s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__functions.c
+[4.689s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__functions.h
+[4.689s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__type_support.h
+[4.689s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__struct.h
+[4.689s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__struct.h
+[4.689s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__functions.c
+[4.689s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__type_support.h
+[4.690s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__functions.c
+[4.690s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__functions.c
+[4.690s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__functions.c
+[4.690s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__struct.h
+[4.690s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__struct.h
+[4.690s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__functions.h
+[4.690s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_armor.h
+[4.690s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_armors.h
+[4.691s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_light.h
+[4.691s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/armors.h
+[4.691s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_lights.h
+[4.691s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/library_path.sh
+[4.691s] -- Installing: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/library_path.dsv
+[4.691s] -- Installing: /home/tars-go/sb/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_generator_c.so
+[4.691s] -- Set runtime path of "/home/tars-go/sb/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_generator_c.so" to ""
+[4.691s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces
+[4.691s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg
+[4.691s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.691s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail
+[4.692s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__rosidl_typesupport_fastrtps_c.h
+[4.692s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__rosidl_typesupport_fastrtps_c.h
+[4.692s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__rosidl_typesupport_fastrtps_c.h
+[4.692s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__rosidl_typesupport_fastrtps_c.h
+[4.692s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__rosidl_typesupport_fastrtps_c.h
+[4.692s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__rosidl_typesupport_fastrtps_c.h
+[4.692s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__rosidl_typesupport_fastrtps_c.h
+[4.692s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__rosidl_typesupport_fastrtps_c.h
+[4.692s] -- Installing: /home/tars-go/sb/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.692s] -- Set runtime path of "/home/tars-go/sb/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[4.693s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces
+[4.693s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg
+[4.693s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail
+[4.693s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__rosidl_typesupport_introspection_c.h
+[4.693s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__rosidl_typesupport_introspection_c.h
+[4.693s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__type_support.c
+[4.693s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__type_support.c
+[4.693s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__rosidl_typesupport_introspection_c.h
+[4.693s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__type_support.c
+[4.693s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__type_support.c
+[4.693s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__rosidl_typesupport_introspection_c.h
+[4.693s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__rosidl_typesupport_introspection_c.h
+[4.693s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__type_support.c
+[4.693s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__type_support.c
+[4.693s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__rosidl_typesupport_introspection_c.h
+[4.693s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__type_support.c
+[4.694s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__type_support.c
+[4.694s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__rosidl_typesupport_introspection_c.h
+[4.694s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__rosidl_typesupport_introspection_c.h
+[4.694s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.694s] -- Installing: /home/tars-go/sb/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_introspection_c.so
+[4.694s] -- Set runtime path of "/home/tars-go/sb/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[4.694s] -- Installing: /home/tars-go/sb/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_c.so
+[4.694s] -- Set runtime path of "/home/tars-go/sb/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_c.so" to ""
+[4.694s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces
+[4.694s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg
+[4.695s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_light.hpp
+[4.695s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_lights.hpp
+[4.695s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/armor.hpp
+[4.695s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail
+[4.695s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__builder.hpp
+[4.695s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__traits.hpp
+[4.695s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__struct.hpp
+[4.695s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__struct.hpp
+[4.695s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__builder.hpp
+[4.695s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__struct.hpp
+[4.696s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__traits.hpp
+[4.696s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__builder.hpp
+[4.696s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__traits.hpp
+[4.696s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__struct.hpp
+[4.696s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__traits.hpp
+[4.696s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__builder.hpp
+[4.696s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__traits.hpp
+[4.696s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__traits.hpp
+[4.696s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__struct.hpp
+[4.696s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__builder.hpp
+[4.696s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__traits.hpp
+[4.696s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__builder.hpp
+[4.696s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__struct.hpp
+[4.696s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__builder.hpp
+[4.696s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__struct.hpp
+[4.696s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__traits.hpp
+[4.697s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__builder.hpp
+[4.697s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__struct.hpp
+[4.697s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/target.hpp
+[4.697s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/armors.hpp
+[4.697s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_armor.hpp
+[4.697s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_armors.hpp
+[4.697s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/tracker_info.hpp
+[4.697s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces
+[4.697s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg
+[4.697s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.697s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail
+[4.697s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__rosidl_typesupport_fastrtps_cpp.hpp
+[4.697s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__rosidl_typesupport_fastrtps_cpp.hpp
+[4.697s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__rosidl_typesupport_fastrtps_cpp.hpp
+[4.697s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__rosidl_typesupport_fastrtps_cpp.hpp
+[4.697s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__rosidl_typesupport_fastrtps_cpp.hpp
+[4.698s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__rosidl_typesupport_fastrtps_cpp.hpp
+[4.698s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/dds_fastrtps
+[4.698s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__rosidl_typesupport_fastrtps_cpp.hpp
+[4.698s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__rosidl_typesupport_fastrtps_cpp.hpp
+[4.698s] -- Installing: /home/tars-go/sb/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.698s] -- Set runtime path of "/home/tars-go/sb/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.698s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces
+[4.698s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg
+[4.698s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail
+[4.698s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__rosidl_typesupport_introspection_cpp.hpp
+[4.698s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__rosidl_typesupport_introspection_cpp.hpp
+[4.698s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__type_support.cpp
+[4.698s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/tracker_info__type_support.cpp
+[4.698s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__rosidl_typesupport_introspection_cpp.hpp
+[4.699s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__rosidl_typesupport_introspection_cpp.hpp
+[4.699s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__type_support.cpp
+[4.699s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__type_support.cpp
+[4.699s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__type_support.cpp
+[4.699s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__type_support.cpp
+[4.699s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__rosidl_typesupport_introspection_cpp.hpp
+[4.699s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/target__rosidl_typesupport_introspection_cpp.hpp
+[4.699s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__type_support.cpp
+[4.699s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__rosidl_typesupport_introspection_cpp.hpp
+[4.699s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__rosidl_typesupport_introspection_cpp.hpp
+[4.699s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__type_support.cpp
+[4.699s] -- Installing: /home/tars-go/sb/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.699s] -- Set runtime path of "/home/tars-go/sb/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[4.699s] -- Installing: /home/tars-go/sb/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_cpp.so
+[4.699s] -- Set runtime path of "/home/tars-go/sb/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_typesupport_cpp.so" to ""
+[4.699s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/pythonpath.sh
+[4.700s] -- Installing: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/pythonpath.dsv
+[4.700s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces-0.0.0-py3.10.egg-info
+[4.700s] -- Installing: /home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.700s] -- Installing: /home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.700s] -- Installing: /home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[4.700s] -- Installing: /home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[4.700s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces
+[4.700s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[4.700s] -- Installing: /home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.700s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg
+[4.700s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_tracker_info_s.c
+[4.700s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_lights.py
+[4.700s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_target.py
+[4.700s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_target_s.c
+[4.700s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armors_s.c
+[4.700s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_lights_s.c
+[4.700s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armor_s.c
+[4.701s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/__init__.py
+[4.701s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armors.py
+[4.701s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armor.py
+[4.701s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_light_s.c
+[4.701s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_tracker_info.py
+[4.701s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armor.py
+[4.701s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armors.py
+[4.701s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_light.py
+[4.701s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_debug_armor_s.c
+[4.701s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg/_armors_s.c
+[4.701s] -- Installing: /home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/__init__.py
+[4.701s] -- Installing: /home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.701s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_c.c
+[4.701s] -- Installing: /home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/libauto_aim_interfaces__rosidl_generator_py.so
+[4.701s] -- Installing: /home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.701s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/_auto_aim_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.741s] Listing '/home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces'...
+[4.741s] Compiling '/home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/__init__.py'...
+[4.741s] Listing '/home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/msg'...
+[4.747s] -- Installing: /home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.747s] -- Set runtime path of "/home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.747s] -- Installing: /home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.747s] -- Set runtime path of "/home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.747s] -- Installing: /home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.748s] -- Set runtime path of "/home/tars-go/sb/install/auto_aim_interfaces/local/lib/python3.10/dist-packages/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.748s] -- Installing: /home/tars-go/sb/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_generator_py.so
+[4.748s] -- Set runtime path of "/home/tars-go/sb/install/auto_aim_interfaces/lib/libauto_aim_interfaces__rosidl_generator_py.so" to ""
+[4.749s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Armor.idl
+[4.749s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Armors.idl
+[4.749s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Target.idl
+[4.749s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugLight.idl
+[4.749s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugLights.idl
+[4.749s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugArmor.idl
+[4.749s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugArmors.idl
+[4.749s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/TrackerInfo.idl
+[4.749s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Armor.msg
+[4.749s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Armors.msg
+[4.749s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/Target.msg
+[4.749s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugLight.msg
+[4.749s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugLights.msg
+[4.750s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugArmor.msg
+[4.750s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/DebugArmors.msg
+[4.750s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/msg/TrackerInfo.msg
+[4.750s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/share/ament_index/resource_index/package_run_dependencies/auto_aim_interfaces
+[4.750s] -- Installing: /home/tars-go/sb/install/auto_aim_interfaces/share/ament_index/resource_index/parent_prefix_path/auto_aim_interfaces
+[4.750s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/ament_prefix_path.sh
+[4.750s] -- Installing: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/ament_prefix_path.dsv
+[4.750s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/path.sh
+[4.750s] -- Installing: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/environment/path.dsv
+[4.750s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/local_setup.bash
+[4.750s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/local_setup.sh
+[4.750s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/local_setup.zsh
+[4.750s] -- Installing: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/local_setup.dsv
+[4.750s] -- Installing: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/package.dsv
+[4.751s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/share/ament_index/resource_index/packages/auto_aim_interfaces
+[4.751s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_cExport.cmake
+[4.751s] -- Installing: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_cExport-relwithdebinfo.cmake
+[4.751s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.751s] -- Installing: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_typesupport_fastrtps_cExport-relwithdebinfo.cmake
+[4.751s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.751s] -- Installing: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_introspection_cExport-relwithdebinfo.cmake
+[4.751s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_cExport.cmake
+[4.751s] -- Installing: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_cExport-relwithdebinfo.cmake
+[4.751s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_cppExport.cmake
+[4.751s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.751s] -- Installing: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_typesupport_fastrtps_cppExport-relwithdebinfo.cmake
+[4.751s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.751s] -- Installing: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_introspection_cppExport-relwithdebinfo.cmake
+[4.752s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_cppExport.cmake
+[4.752s] -- Installing: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfaces__rosidl_typesupport_cppExport-relwithdebinfo.cmake
+[4.752s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_pyExport.cmake
+[4.752s] -- Installing: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/export_auto_aim_interfaces__rosidl_generator_pyExport-relwithdebinfo.cmake
+[4.752s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.752s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.752s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.752s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.752s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.752s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.752s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.753s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfacesConfig.cmake
+[4.753s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake/auto_aim_interfacesConfig-version.cmake
+[4.753s] -- Up-to-date: /home/tars-go/sb/install/auto_aim_interfaces/share/auto_aim_interfaces/package.xml
+[4.755s] Invoked command in '/home/tars-go/sb/build/auto_aim_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tars-go/sb/build/auto_aim_interfaces
