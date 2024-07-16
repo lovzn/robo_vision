@@ -14,3 +14,4 @@ float64 pre_yaw
 float64 aim_x
 float64 aim_y
 float64 aim_z
+float64 fire
